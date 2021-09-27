@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!--обеспечиваем адаптивность сайта -->
+    <title>Ks design</title>
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	  
+	  <style>
+		  
+		  #ks{
+			position:relative;
+            z-index: 2;
+			margin: 20px;
+			margin-left: 0;  
+		  }
+		  #logo{
+			  width:50px;
+			  float: center center;
+		  }
+		  
+		  .rectengle {
+			  position: absolute;
+			  width: 60vw;
+			  height: 70vh;
+			  right: 0px;
+			  top: 0px;
+			  background: #FDF9E5;
+			  z-index: -1;
+			  animation: colorr 5s infinite;
+		  }
+		  
+		  @keyframes colorr{
+			  0%,100%{
+				  background: #FDF9E5;
+			  }
+			  50%{
+				  background: #CBD3F1;
+			  }
+		  }
+		  
+		  
+		  h3,p{
+          float: center;
+          font-style: normal;
+          font-weight: normal;
+		  }
+		  
+		  
+		  h2{
+			  margin-top:52px;
+			  color:#000000;
+		  }
+		  
+		  footer{
+			  position:static; /* Фиксированное положение */
+			  bottom: 0; /* Левый нижний угол */
+			  padding: 10px; 
+		  }
+		  
+		  ul {
+			 float: left;
+		  }
+		  
+		  a{
+
+			  font-style: normal;
+			  font-weight: normal;
+			  font-size: 1.5rem;
+			  line-height: 30px;
+			  letter-spacing: 0.05em;
+			  text-transform: capitalize;
+			  color: #000000;
+			  
+		  }
+		  .aa{
+			  font-size: 1rem;
+		  }
+		  
+		  .dropdown-menu{
+			  border: 0px;
+		  }
+		  .col-md-4, .cust_blogteaser{
+			  padding-bottom:20px;
+			  margin-bottom:32px;
+		  }
+		  
+		  .hh3{
+			  text-align:left;
+			  margin-top:20px;
+			  font-size:18px;
+			  margin-right:0;
+			  margin-left:24px;
+			  line-height:34px;
+			  letter-spacing:0px;
+			  font-style:normal;
+			  font-weight:bold;
+		  }
+		  
+		  .text-secondary{
+			  text-align:left;
+			  font-size:14px;
+			  line-height:22px;
+			  margin-left:20px;
+			  margin-right:20px;
+		  }
+	  
+	  </style> 
+  </head>
+  <body>
+	
+  <div class="rectengle"></div>
+	  
+	  <nav class="navbar navbar-light navbar-expand-lg clean-navbar">
+        <div class="container"> 
+		<a class="navbar-brand logo" href="index.html">	
+	    <img id="logo" src="images/logo.png" alt="logo"> </a>
+		<button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only"></span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="about.html">Обо мне</a></li>
+                <li class="nav-item"><a class="nav-link" href="photo.html">Фото</a></li>
+                <li class="nav-item"><a class="nav-link active" href="design.html">Дизайн</a></li>
+                <li class="nav-item"><a class="nav-link" href="kor.html">Языки</a></li>
+				<li class="nav-item dropdown"><a data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle nav-link" href="music.html">Музыка</a>
+					<div role="menu" class="dropdown-menu">
+						<a role="presentation" class="dropdown-item" href="music.html">Nct</a>
+						<a role="presentation" class="dropdown-item" href="nct127.html">Nct 127</a>
+						<a role="presentation" class="dropdown-item" href="nctu.html">Nct U</a>
+						<a role="presentation" class="dropdown-item" href="nctdream.html">Nct Dream</a>
+					</div>
+				</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+
+  <section>
+	 <div class="container">
+    <h2 class="text-center">Дизайн кейсы</h2>
+        <p>В последнее время меня заинтересовал веб-дизайн, поэтому я начала проходить онлайн  курсы на SkillBox, ниже представлены некоторые мои работы.</p>
+	<br>
+	<br>	 
+     <div class="row">
+        <div class="col-md-4 cust_blogteaser"><a href="case1.html"><img alt="case" class="img-fluid" style="height:auto;" src="images/c1.png" /></a>
+            <h3 class="hh3">Продуктовая страница<br /></h3>
+            <p class="text-secondary">Суть этого задания заключается в том, чтобы подобрать максимально быстро максимально качественные изображения для простой продуктовой странички, которую также необходимо отрисовать. Страничка должна быть посвящена презентации не самой дорогой отдельно стоящей микроволновке/хлебопечке. </p></div>
+      <div class="col-md-4 cust_blogteaser" ><a href="case2.html"><img alt="case" class="img-fluid" style="height:auto;" src="images/c3.png" /></a>
+            <h3 class="hh3">Рекламные плакаты<br /></h3>
+            <p class="text-secondary">В этом задании нужно создать 2-3 плаката разного ассоциативного уровня.</p></div>
+		 <div class="col-md-4 cust_blogteaser" ><a href="case3.html"><img alt="case" class="img-fluid" style="height:auto;" src="images/c2.png" /></a>
+            <h3 class="hh3">Дизайн приложения<br /></h3>
+            <p class="text-secondary">Работа нацелена на знакомство с Figma. В данной работе представлен дизайн простого мобильного приложения для заметок, также был создан прототип, имитирующий использование приложения.</p></div>
+</div>
+</div>
+</section> 
+	  
+<footer>	
+	<h3 class="text-center" >KKD</h3>
+</footer> 
+	  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

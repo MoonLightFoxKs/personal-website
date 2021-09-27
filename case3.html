@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!--обеспечиваем адаптивность сайта -->
+    <title>Ks case</title>
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	  
+	  <style>
+		  
+		  #ks{
+			position:relative;
+            z-index: 2;
+			margin: 20px;
+			margin-left: 0;  
+		  }
+		  #logo{
+			  width:50px;
+			  float: center center;
+		  }
+		  
+		  .rectengle {
+			  position: absolute;
+			  width: 60vw;
+			  height: 70vh;
+			  right: 0px;
+			  top: 0px;
+			  background: #E9D2F8;
+			  z-index: -1;
+			  animation: colorr 5s infinite;
+		  }
+		  
+		  @keyframes colorr{
+			  0%,100%{
+				  background: #E9D2F8;
+			  }
+			  50%{
+				  background: #EFE9FA;
+			  }
+		  }
+		  
+		  h3,p{
+          float: center;
+          font-style: normal;
+          font-weight: normal;
+          font-family: HelveticaNeueCyr;
+		  }
+		  
+		  h2{
+			  font-family: HelveticaNeueCyr;
+		  }
+		  
+		  footer{
+			  position:static; /* Фиксированное положение */
+			  bottom: 0; /* Левый нижний угол */
+			  padding: 10px; 
+		  }
+		  
+		  ul {
+			 float: left;
+		  }
+		  
+		  a{
+			  font-family: HelveticaNeueCyr;
+			  font-style: normal;
+			  font-weight: normal;
+			  font-size: 1.5rem;
+			  line-height: 30px;
+			  letter-spacing: 0.05em;
+			  text-transform: capitalize;
+			  color: #000000;
+			  
+		  }
+		  .aa{
+			  font-size: 1rem;
+		  }
+		  
+		  .dropdown-menu{
+			  border: 0px;
+		  }
+		  
+
+	  
+	  </style> 
+  </head>
+  <body>
+	
+  <div class="rectengle"></div>
+	  
+	  <nav class="navbar navbar-light navbar-expand-lg clean-navbar">
+        <div class="container"> 
+		<a class="navbar-brand logo" href="index.html">	
+	    <img id="logo" src="images/logo.png" alt="logo"> </a>
+		<button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only"></span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="about.html">Обо мне</a></li>
+                <li class="nav-item"><a class="nav-link" href="photo.html">Фото</a></li>
+                <li class="nav-item"><a class="nav-link active" href="design.html">Дизайн</a></li>
+                <li class="nav-item"><a class="nav-link" href="kor.html">Языки</a></li>
+				<li class="nav-item dropdown"><a data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle nav-link">Музыка</a>
+					<div role="menu" class="dropdown-menu">
+						<a role="presentation" class="dropdown-item" href="music.html">Nct</a>
+						<a role="presentation" class="dropdown-item" href="nct127.html">Nct 127</a>
+						<a role="presentation" class="dropdown-item" href="nctu.html">Nct U</a>
+						<a role="presentation" class="dropdown-item" href="nctdream.html">Nct Dream</a>
+					</div>
+				</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<br>
+  <section>
+	  <div class="article-dual-column">
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-1 col-xl-4">
+                <div class="toc">
+                    <h2>Дизайн приложения</h2>
+					<p>Работа нацелена на знакомство с Figma. В данной работе представлен дизайн простого мобильного приложения для заметок, также был создан прототип, имитирующий использование приложения. Те есть имеются рабочие кнопки, обеспечивающие переход на следующий экран приложения.</p>
+					<a href="https://www.figma.com/proto/TODSs0yFNnYWR8s4H4Zrhh/Note?node-id=2%3A0&scaling=scale-down" target="_blank">Ссылка на прототип</a>
+                </div>
+            </div>
+            <div class="col-lg-7 offset-lg-0">
+                <div class="text">
+			        <figure class="figure"><img alt="case3" class="figure-img img-fluid" src="images/case2.png"/>
+                        <figcaption class="figure-caption">Стартовый экран, ввод логина и пароля</figcaption>
+                    </figure>
+					<figure class="figure"><img alt="case2" class="figure-img img-fluid" src="images/case2.2.png"/>
+                        <figcaption class="figure-caption">Список заметок</figcaption>
+                    </figure>
+					<figure class="figure"><img alt="case2" class="figure-img img-fluid" src="images/case2.3.png"/>
+                        <figcaption class="figure-caption">Заметка</figcaption>
+                    </figure>
+					<figure class="figure"><img alt="case2" class="figure-img img-fluid" src="images/case2.4.png"/>
+                        <figcaption class="figure-caption">Разработка прототипа</figcaption>
+                    </figure>
+                </div>
+            </div>
+			
+        </div>
+    </div>
+</div>
+</section> 
+	  
+<footer>	
+	<h3 class="text-center" >KKD</h3>
+</footer> 
+	  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>	  
+	  

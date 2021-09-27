@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!--обеспечиваем адаптивность сайта -->
+    <title>Ks nct</title>
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	  
+	  <style>
+		  
+		  #ks{
+			position:relative;
+            z-index: 2;
+			margin: 20px;
+			margin-left: 0;
+		  }
+		  
+		  #logo{
+			  width:50px;
+			  float: center center;
+		  }
+		  
+		  .rectengle {
+			  position: absolute;
+			  width: 60vw;
+			  height: 70vh;
+			  right: 0px;
+			  top: 0px;
+			  background: #F2F8D2;
+			  z-index: -1;
+			  animation: colorr 5s infinite;
+		  }
+		  
+		  @keyframes colorr{
+			  0%,100%{
+				  background: #F2F8D2;
+			  }
+			  50%{
+				  background: #FBCBCB;
+			  }
+		  }
+		  
+		  h3,p{
+          float: center;
+          font-style: normal;
+          font-weight: normal;
+		  }
+		  
+		  footer{
+			  position:static; /* Фиксированное положение */
+			  bottom: 0; /* Левый нижний угол */
+			  padding: 10px; 
+		  }
+		  
+		  ul {
+			 float: left;
+		  }
+		  
+		  a{
+			  font-style: normal;
+			  font-weight: normal;
+			  font-size: 1.5rem;
+			  line-height: 30px;
+			  letter-spacing: 0.05em;
+			  text-transform: capitalize;
+			  color: #000000;
+			  
+		  }
+		  .aa{
+			  font-size: 1rem;
+		  }
+		  
+		  .dropdown-menu{
+			  border: 0px;
+		  }
+		  
+		  .photo-gallery .item {
+          padding-bottom: 30px;
+          }
+		  
+		  .co {
+			  position: relative;
+			  width: 100%;
+			  height: 0;
+			  padding-bottom: 56.25%;
+			  margin-bottom: 30px;
+		  }
+		  
+		  .video {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;
+		  }
+
+	  
+	  </style> 
+  </head>
+  <body>
+	
+  <div class="rectengle"></div>
+	  
+	  <nav class="navbar navbar-light navbar-expand-lg clean-navbar">
+        <div class="container"> 
+		<a class="navbar-brand logo" href="index.html">	
+	    <img id="logo" src="images/logo.png" alt="logo"> </a>
+		<button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only"></span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="about.html">Обо мне</a></li>
+                <li class="nav-item"><a class="nav-link" href="photo.html">Фото</a></li>
+                <li class="nav-item"><a class="nav-link" href="design.html">Дизайн</a></li>
+                <li class="nav-item"><a class="nav-link" href="kor.html">Языки</a></li>
+				<li class="nav-item dropdown"><a data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle nav-link active">Музыка</a>
+					<div role="menu" class="dropdown-menu">
+						<a role="presentation" class="dropdown-item" href="music.html">Nct</a>
+						<a role="presentation" class="dropdown-item" href="nct127.html">Nct 127</a>
+						<a role="presentation" class="dropdown-item active" href="nctu.html">Nct U</a>
+						<a role="presentation" class="dropdown-item" href="nctdream.html">Nct Dream</a>
+					</div>
+				</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <section>
+	      <div class="container">
+				<img class="img-fluid" id="ks" alt="nctU" src="images/nctU2.png"/>
+	  </div>   
+  </section> 
+	  
+	<section>
+	 <div class="photo-gallery">
+      <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Участники</h2>
+        </div>
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos"><img alt="img" class="img-fluid" src="images/ty.jpg" /></a><figcaption class="figure-caption">이태용 Ли Тэён</figcaption></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos"><img alt="img" class="img-fluid" src="images/tl.jpg" /></a><figcaption class="figure-caption">문태일 Мун Тэиль</figcaption></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos"><img alt="img" class="img-fluid" src="images/ten.jpg" /></a><figcaption class="figure-caption">텐 Тэн</figcaption></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos"><img alt="img" class="img-fluid" src="images/lu.jpg" /></a><figcaption class="figure-caption">루카스 Вон Юкхей (Лукас)</figcaption></div> 
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos"><img alt="img" class="img-fluid" src="images/dy.jpg" /></a><figcaption class="figure-caption">김동영 Ким Донён (Доён)</figcaption></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos"><img alt="img" class="img-fluid" src="images/jh.jpg" /></a><figcaption class="figure-caption">정윤오 Чон Юно (Джехён)</figcaption></div>
+			<div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos"><img alt="img" class="img-fluid" src="images/jw.jpg" /></a><figcaption class="figure-caption">김정우 Ким Чону</figcaption></div>
+			<div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos"><img alt="img" class="img-fluid" src="images/mk.jpg" /></a><figcaption class="figure-caption">이민형 Ли Минхён (Марк)</figcaption></div>
+        </div>	   
+    </div>
+</div>
+		<div class="container">
+		  <h2 class="text-center">Выступления, клипы, видео</h2>
+			<div class="row">
+             <div class="col-md-6">
+				 <div class="co"><iframe class="video" src="https://www.youtube.com/embed/6Kex9yu1DeQ" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div> 
+			<div class="col-md-6">
+			     <div class="co"><iframe class="video" src="https://www.youtube.com/embed/sXcRYBZWrUw" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+			</div>	
+		<div class="row">
+             <div class="col-md-6">
+				 <div class="co"><iframe class="video" src="https://www.youtube.com/embed/QdPxGCXxK6Q" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div> 
+			<div class="col-md-6">
+			     <div class="co"><iframe class="video" src="https://www.youtube.com/embed/g1RcPhn0w2s" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+			</div>	
+			<div class="row">
+             <div class="col-md-6">
+				 <div class="co"><iframe class="video" src="https://www.youtube.com/embed/FoJq3DND95c" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div> 
+			<div class="col-md-6">
+			     <div class="co"><iframe class="video" src="https://www.youtube.com/embed/hkoeMkvaOxE" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+			</div>	
+		</div>
+
+	</section> 
+<footer>	
+	<h3 class="text-center" >KKD</h3>
+</footer>  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body> 
+</html>	  
